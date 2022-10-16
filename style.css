@@ -8,7 +8,7 @@
 }
 
 h1, h2, h3 {
-  font-family: monospace;
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ header {
 }
 
 nav {
-  background-color: beige;
+  background-color: dodgerblue;
   grid-area: 3 / 1 / 4 / 7;
 }
 
@@ -28,13 +28,13 @@ nav {
 }
 
 .right {
-  background-color: beige;
+  background-color: dodgerblue;
   grid-area: 4 / 5 / 9 / 7;
 
 }
 
 .overlap {
-  background-color: lightcoral;
+  background-color: beige;
   grid-area: 6 / 4 / 8 / 6;
   z-index: 5;
 
